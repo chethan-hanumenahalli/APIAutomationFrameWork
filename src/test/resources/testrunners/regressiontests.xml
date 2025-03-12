@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Regression Suite" verbose="3">
+
+    <test name="Create User Test">
+        <classes>
+            <class name="com.qa.gorest.tests.CreateUsersTest"/>
+        </classes>
+    </test>
+
+    <test name="GET User Test">
+        <classes>
+            <class name="com.qa.gorest.tests.GetUsersTest"/>
+        </classes>
+    </test>
+
+    <test name="Update User Test">
+        <classes>
+            <class name="com.qa.gorest.tests.UpdateUsersTest"/>
+        </classes>
+    </test>
+
+    <test name="Partial Update User Test">
+        <classes>
+            <class name="com.qa.gorest.tests.PatchUsersTest"/>
+        </classes>
+    </test>
+
+    <test name="Delete User Test">
+        <classes>
+            <class name="com.qa.gorest.tests.DeleteUsersTest"/>
+        </classes>
+    </test>
+
+    <test name="ReqRes Users List Test">
+        <classes>
+            <class name="com.qa.reqres.tests.UsersListTest"/>
+        </classes>
+    </test>
+
+    <test name="Contacts API Test">
+        <classes>
+            <class name="com.qa.contacts.tests.ContactsAPITest"/>
+        </classes>
+    </test>
+
+    <test name="Products API Test">
+        <classes>
+            <class name="com.qa.products.tests.ProductsAPITest"/>
+        </classes>
+    </test>
+
+    <test name="Products API Test With Deserialization">
+        <classes>
+            <class name="com.qa.products.tests.ProductsAPItestWithDeserialization"/>
+        </classes>
+    </test>
+
+    <test name="Basic Auth API Test">
+        <classes>
+            <class name="com.qa.basicauth.tests.BasicAuthTest"/>
+        </classes>
+    </test>
+    <test name="Auth 2.0 API Test">
+        <classes>
+            <class name="com.qa.amadeus.tests.AmadeusAPITest"/>
+        </classes>
+    </test>
+
+
+</suite>
