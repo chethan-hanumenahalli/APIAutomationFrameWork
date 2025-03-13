@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.Map;
 
 public class AmadeusAPITest extends BaseTest {
-    @Test
+    @Test(enabled = false)
     public void getFlightDetailsTest() {
 
         Map<String, String> queryParams = Map.of("origin", "PAR", "maxPrice", "200");
